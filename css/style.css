@@ -21,12 +21,12 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 main{
     background-color: #000000;
     margin: auto;
-    border-top: solid 1px #666; 
+    border-top: solid 2px #fff;
 }
 
 header{
-    max-width: 1000px;
     margin: auto;
+    width: 1000px;
     justify-content: space-between;
     display: flex;
     background-color: black;
@@ -35,7 +35,6 @@ header{
     font-weight: 400;
     align-items: center;
     padding: 24px 20px;
-    
     }
 
 ul{
