@@ -99,12 +99,6 @@ h1{
     margin: 0 0 1.4rem 0;
     }
 
-div.card img{
-    max-height: 200px;
-    max-width: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-}
 
 div.card{
     height: 200px;
@@ -113,6 +107,12 @@ div.card{
     position: relative;
     text-align: center;
     color: white;
+    }
+
+div.card img{
+        max-width: 200px;
+        object-fit: cover;
+        border-radius: 5px;
     }
 
 div.card h3{
