@@ -183,9 +183,13 @@ footer{
         margin: 0 0 20px 0;
     }
 
+    section.testo{
+        padding: 25px 15px;
+    }
 
     div.container{
         display: grid;
+        gap: 32px;
     }
 
     div.card{
@@ -196,8 +200,8 @@ footer{
     }
 
     div.card img{
-    width: 150px;
-    height: 150px;
+        width: 150px;
+        height: 150px;
     }
 
     div.paragrafo{
