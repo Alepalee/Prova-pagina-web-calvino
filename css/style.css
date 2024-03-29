@@ -99,7 +99,7 @@ div.container{
     max-width: 1000px;
     display: flex;
     padding: 0;
-    gap: 32px;    
+    gap: 72px;    
 }
 
 h1{
@@ -170,8 +170,13 @@ footer{
 
     section div.info{
         display: grid;
-        grid-column: 1;
-        
+        grid-column: 2;
+        grid-template-columns: 2fr 1fr;
+        gap: 16px;
+    }
+
+    section div.info img{
+        max-width: 100px;
     }
 
     section div.info h1{
@@ -185,9 +190,17 @@ footer{
     }
 
     div.card{
+        width: 150px;
+        height: 150px;
         grid-row: 1;
         grid-column: 1;
     }
+
+    div.card img{
+    width: 150px;
+    height: 150px;
+    }
+
     div.paragrafo{
         grid-row: 2;
         grid-column: 1;
