@@ -170,13 +170,12 @@ footer{
 
     section div.info{
         display: grid;
-        grid-column: 2;
-        grid-template-columns: 2fr 1fr;
+        grid-column: 1;
         gap: 16px;
     }
 
     section div.info img{
-        max-width: 100px;
+        max-width: 200px;
     }
 
     section div.info h1{
