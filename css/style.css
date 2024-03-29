@@ -5,7 +5,7 @@ html{
 body{
     background-color: rgb(0, 0, 0) ;
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Author', sans-serif;
     color: white;
 }
 
@@ -31,8 +31,8 @@ header{
     display: flex;
     background-color: black;
     color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 300;
     align-items: center;
     padding: 24px 20px;
     }
@@ -55,23 +55,37 @@ a:hover{
     text-decoration: none;
 }
 
-main section.hero{
-    background-color: rgb(0, 0, 0);
-    max-width: 1000px;
+section.hero{
+    background-color: 000000;
+    color: #ffffff;
     margin: auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 50px 20px;
 }
 
+section div.info{
+    margin: auto;
+    width: 1000px;
+    justify-content: space-between;
+    display: flex;
+    padding: 0;
+    gap: 32px;  
+    align-items: center;
+}
 
-section.hero h1{
-    max-width: 360px;
-    min-width: 360px;
+section div.info img{
+    max-height:300px
+}
+
+section div.info h1{
+    max-width: 370px;
+    min-width: 370px;
     max-height: 100%;
-    font-size: 42px;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
 
 section.testo{
@@ -95,7 +109,7 @@ h1{
 .paragrafo p{
     font-weight: 300;
     line-height: 1.4;
-    font-size: 17px;
+    font-size: 18px;
     margin: 0 0 1.4rem 0;
     }
 
@@ -110,13 +124,14 @@ div.card{
     }
 
 div.card img{
-        max-width: 200px;
-        object-fit: cover;
-        border-radius: 5px;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 5px;
     }
 
 div.card h3{
     font-size: 16px;
+    font-weight: 700;
     background-color: black;
     margin: 0;
     padding: 10px;
@@ -128,17 +143,17 @@ div.card h3{
     }
 
 footer{
-        height: 120px;
-        max-width: 1000px;
-        margin: auto;
-        display: flex;
-        background-color: black;
-        color: rgb(255, 255, 255);
-        justify-content: space-between;
-        font-size: 18px;
-        font-weight: 400;
-        align-items: center;
-        padding: 24px 20px;
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    padding: 24px 20px;
         }
 
 @media(max-width: 700px){
@@ -153,18 +168,17 @@ footer{
         gap: 5px;
     }
 
-    main section.hero{
+    section div.info{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-column: 1;
+        
     }
 
-    section.hero h1{
-        font-size: 36px;
+    section div.info h1{
+        font-size: 32px;
+        margin: 0 0 20px 0;
     }
 
-    section.hero img{
-        width: 100%;
-    }
 
     div.container{
         display: grid;
