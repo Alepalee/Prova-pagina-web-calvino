@@ -171,7 +171,7 @@ footer{
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-column: 2;
-        gap: 8px;
+        gap: 24px;
     }
 
     section div.info img{
@@ -179,8 +179,8 @@ footer{
     }
 
     section div.info h1{
-        font-size: 32px;
-        max-width: 250px;
+        font-size: 31px;
+        max-width: 290px;
     }
 
     section.testo{
