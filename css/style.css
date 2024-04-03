@@ -138,7 +138,7 @@ div.card img{
 
 div.card h3{
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     background-color: black;
     margin: 0;
     padding: 10px;
@@ -178,11 +178,11 @@ footer{
     }
 
     section div.info img{
-        max-width: 150px;
+        max-width: 100px;
     }
 
     section div.info h1{
-        font-size: 28px;
+        font-size: 24px;
         max-width: 290px;
     }
 
@@ -196,15 +196,15 @@ footer{
     }
 
     div.card{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
         grid-row: 1;
         grid-column: 1;
     }
 
     div.card img{
-        width: 150px;
-        height: 150px;
+        width: 125px;
+        height: 125px;
     }
 
     div.paragrafo{
