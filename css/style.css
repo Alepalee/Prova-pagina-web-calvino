@@ -67,23 +67,18 @@ section.hero{
     background-color: #000000;
     color: #ffffff;
     margin: auto;
-    display: flex;
     align-items: center;
     padding: 50px 20px;
 }
 
 section div.info{
     margin: auto;
-    width: 1000px;
+    max-width: 1000px;
     justify-content: space-between;
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
     padding: 0;
-    gap: 32px;  
     align-items: center;
-}
-
-section div.info img{
-    max-height:300px
 }
 
 section div.info h1{
@@ -168,17 +163,6 @@ footer{
     ul{
         display: grid;
         gap: 5px;
-    }
-
-    section div.info{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-column: 2;
-        gap: 24px;
-    }
-
-    section div.info img{
-        max-width: 100px;
     }
 
     section div.info h1{
