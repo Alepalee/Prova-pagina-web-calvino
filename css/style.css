@@ -165,9 +165,13 @@ footer{
         gap: 5px;
     }
 
+    section div.info{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
     section div.info h1{
-        font-size: 24px;
-        max-width: 290px;
+        font-size: 26px;
     }
 
     section.testo{
