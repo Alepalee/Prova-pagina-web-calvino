@@ -30,7 +30,7 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
-    padding: 30px 20px;
+    padding: 30px 25px;
     }
 
 .gruppo{
@@ -94,7 +94,7 @@ section div.info h1{
 section.testo{
     background-color: #7E56C9;
     margin: auto;
-    padding: 50px 20px;
+    padding: 50px 25px;
 }
 
 div.container{
@@ -112,7 +112,7 @@ h1{
 .paragrafo p{
     font-weight: 300;
     line-height: 1.4;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 0 1.4rem 0;
     }
 
@@ -151,7 +151,7 @@ footer{
     margin: auto;
     display: flex;
     align-items: center;
-    padding: 60px 20px;
+    padding: 60px 25px;
     }
 
 @media(max-width: 700px){
@@ -177,7 +177,7 @@ footer{
     }
 
     section.testo{
-        padding: 25px 15px;
+        padding: 25px 25px;
     }
 
     div.container{
